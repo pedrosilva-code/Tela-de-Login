@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Secure-Auth</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="login-box">
+                <h2>Secure-Auth</h2>
+                <p>Seus dados guardados conosco</p>
+                <p>Bem-vindo! Escolha o tipo de login:</p>
+                <div class="social-buttons">
+                    <button class="google">
+                        <img src="img/google.png" alt="Google">Google
+                    </button>
+                    <button class="facebook">
+                        <img src="img/facebook.png" alt="Facebook">Facebook
+                    </button>
+                </div>
+                <p>ou continue com o Gmail</p>
+
+                <form>
+                    <div class="input-group">
+                        <img src="img/e-mail.png" alt="Ícone de E-mail" class="icon">
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <img src="img/cadeado.png" alt="Ícone de Cadeado" class="icon">
+                        <input type="password" placeholder="Senha" id="senha" required>
+                        <img src="img/olho-fechado.png" alt="ìcone de Olho" class="senha-icon" id="toggleSenha">
+                    </div>
+
+                    <div class="options">
+                        <label><input type=checkbox> Lembre de mim</label>
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+
+                    <button class="login-btn">Login</button>
+                    <p class="register">Não tem uma conta? <a href="#">Criar uma conta</a></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
