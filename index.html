@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure-Auth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1>Secure-Auth</h1>
+            <p>Seus dados guardados conosco</p>
+            <p><strong>Bem-vindo! Escolha o tipo de login:</strong></p>
+
+            <div class="social-login">
+                <button class="google-btn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" alt="Google"> Google
+                </button>
+                <button class="facebook-btn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook"> Facebook
+                </button>
+            </div>
+
+            <div class="divider">
+                <span>ou continue com o gmail</span>
+            </div>
+
+            <form>
+                <div class="input-box">
+                    <label for="email">
+                        <input type="email" id="email" placeholder="E-mail">
+                        <span class="icon">📧</span>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">
+                        <input type="password" id="password" placeholder="Senha">
+                        <span class="icon toggle-password">👁️</span>
+                    </label>
+                </div>
+
+                <div class="options">
+                    <label>
+                        <input type="checkbox"> Lembre de mim
+                    </label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="login-btn">Login</button>
+
+                <p class="register-link">Não tem uma conta? <a href="#">Criar uma conta</a></p>
+            </form>
+        </div>
+
+        <div class="image-box">
+            <img src="https://source.unsplash.com/800x600/?beach,palm-trees" alt="Praia">
+        </div>
+    </div>
+</body>
+</html>
